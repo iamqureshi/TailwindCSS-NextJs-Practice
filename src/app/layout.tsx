@@ -8,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* remove the above ONE */}
+      {/* "this is one" */}
       <body>
         <Appbar />
         <div className="relative overflow-hidden">{children}</div>

@@ -7,8 +7,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // add this comment
     <html lang="en">
+      {/* remove the above comment */}
       <body>
         <Appbar />
         <div className="relative overflow-hidden">{children}</div>

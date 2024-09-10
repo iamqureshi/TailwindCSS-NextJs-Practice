@@ -8,7 +8,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* this could be done by pr */}
       <body>
+        {/* extra line */}
         <Appbar />
         <div className="relative overflow-hidden">{children}</div>
       </body>

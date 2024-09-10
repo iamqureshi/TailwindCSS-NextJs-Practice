@@ -8,7 +8,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* remove the above comment */}
       <body>
         <Appbar />
         <div className="relative overflow-hidden">{children}</div>

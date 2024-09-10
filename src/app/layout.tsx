@@ -7,6 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    // add this comment
     <html lang="en">
       <body>
         <Appbar />
